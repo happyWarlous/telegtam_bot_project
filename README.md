@@ -19,20 +19,20 @@ Notes bot
 
 /help :
 Общее
-  /info - Краткая информация о боте
-  /help - Укороченная версия данной аннотации
+  - /info - Краткая информация о боте
+  - /help - Укороченная версия данной аннотации
 
 Доски
-  /createdesk [namedesk] - Создать доску. При первом запуске ставит первую доску, как доску по умолчанию
-  /setdefaultdesk [namedesk] - Выбрать доску по умолчанию
-  /deletedesk [namedesk] - Удалить доску
-  /showdesks - Показать все доски
+  - /createdesk [namedesk] - Создать доску. При первом запуске ставит первую доску, как доску по умолчанию
+  - /setdefaultdesk [namedesk] - Выбрать доску по умолчанию
+  - /deletedesk [namedesk] - Удалить доску
+  - /showdesks - Показать все доски
 
 Колонны
-  /createcolumn (namedesk) [column] - Создать доску. При первом запуске ставит первую колоннку, как колонну по умолчанию
-  /setdefaultcolumn (namedesk) [column] - Выбрать колонну по умолчанию
-  /deletecolumn (namedesk) [column] - Удалить доску из доски
-  /showcolumn (namedesk) - Показать все колонны данной доски
+  - /createcolumn (namedesk) [column] - Создать доску. При первом запуске ставит первую колоннку, как колонну по умолчанию
+  - /setdefaultcolumn (namedesk) [column] - Выбрать колонну по умолчанию
+  - /deletecolumn (namedesk) [column] - Удалить доску из доски
+  - /showcolumn (namedesk) - Показать все колонны данной доски
 
 Задачи
-  /showtasks <namedesk> [column] - Показать все задачи данной колонны из данной доски
+  - /showtasks <namedesk> [column] - Показать все задачи данной колонны из данной доски
