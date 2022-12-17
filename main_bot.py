@@ -13,12 +13,13 @@ user_desks = []
 def get_info(message):
     bot.send_message(message.from_user.id,
                      "Ты (с)можешь организовать свои задачи!\n")
-
+    photo = open('help_img.jpg', 'rb')
+    bot.send_photo(message.from_user.id, photo)
 
 @bot.message_handler(commands=['help'])
 def get_help(message):
     bot.send_message(message.from_user.id,
-                     "  /info - краткая информация о боте\n  /help - данный список")
+                     "  /info - краткая информация о боте\n /help - данный список")
 
 
 def incorrect_input(message):
